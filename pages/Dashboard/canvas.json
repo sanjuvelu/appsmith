@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1420,
+          "bottomRow": 1980,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -797,6 +797,7 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 17.9375,
+              "dynamicTriggerPathList": [],
               "imageShape": "RECTANGLE",
               "leftColumn": 0,
               "dynamicBindingPathList": [
@@ -1406,16 +1407,103 @@
                 "undefined": true
               },
               "key": "numjjh0aoh",
-              "backgroundColor": "transparent",
+              "backgroundColor": "#fafafa",
               "isDeprecated": false,
               "rightColumn": 42,
-              "itemBackgroundColor": "#FFFFFF",
+              "itemBackgroundColor": "#fafafa",
               "widgetId": "vt7tfbhm3l",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "MapChart1",
+              "data": [
+                {
+                  "id": "NA",
+                  "value": ".82"
+                },
+                {
+                  "id": "SA",
+                  "value": "2.04"
+                },
+                {
+                  "id": "AS",
+                  "value": "1.78"
+                },
+                {
+                  "id": "EU",
+                  "value": ".40"
+                },
+                {
+                  "id": "AF",
+                  "value": "2.58"
+                },
+                {
+                  "id": "AU",
+                  "value": "1.30"
+                }
+              ],
+              "colorRange": [
+                {
+                  "minValue": 0.5,
+                  "maxValue": 1,
+                  "code": "#FFD74D"
+                },
+                {
+                  "minValue": 1,
+                  "maxValue": 2,
+                  "code": "#FB8C00"
+                },
+                {
+                  "minValue": 2,
+                  "maxValue": 3,
+                  "code": "#E65100"
+                }
+              ],
+              "isCanvas": false,
+              "displayName": "Map Chart",
+              "iconSVG": "/static/media/icon.166007800e422924650389fc1feb02a3.svg",
+              "searchTags": [
+                "graph",
+                "visuals",
+                "visualisations"
+              ],
+              "topRow": 134,
+              "bottomRow": 190,
+              "parentRowSpace": 10,
+              "type": "MAP_CHART_WIDGET",
+              "hideCard": false,
+              "mapTitle": "Global Population",
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 17.9375,
+              "leftColumn": 0,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "key": "7qluelduxp",
+              "isDeprecated": false,
+              "rightColumn": 45,
+              "widgetId": "ou3pt4nj6u",
+              "mapType": "WORLD",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "showLabels": true,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
