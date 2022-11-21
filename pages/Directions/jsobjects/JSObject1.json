@@ -1,0 +1,16 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "Directions",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "body": "export default {\n\n\t\tgetSelectOptions: (data, labelKey, valueKey) => {  \n\t\t// creates a deduplicated array of SelectOptions from data \n\t\tlet dupValues = data.map(row => {return {'label':row[labelKey], 'value':row[valueKey]}});\n\t\tlet output = {};\n\t\tdupValues.forEach(option => {output[option.label] = option});\n\t\tlet outputProps = Object.getOwnPropertyNames(output);\n\t\t// duplicate labels get overwritten with the last value\n\t\tlet options = outputProps.map(prop => output[prop]);\n\t\treturn _.sortBy(options, 'value')\n\t},\n\t\n\tgetUserLocation: async () => {\n\t\tappsmith.geolocation.getCurrentPosition()\n\t}\n\t\n}",
+    "variables": [],
+    "userPermissions": []
+  },
+  "id": "Directions_JSObject1",
+  "deleted": false,
+  "gitSyncId": "635f6bae2a523703d95f4acb_637b6429edd1383aca0b761e"
+}

@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "Directions",
+      "isDefault": false
+    },
+    {
       "id": "Dashboard",
       "isDefault": true
     }
@@ -9,14 +13,15 @@
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "clonedFromApplicationId": "62b334e22ff7e42f71a2a124",
-  "color": "#F5D1D1",
-  "icon": "line-chart",
+  "color": "#ECECEC",
+  "icon": "flag",
   "unpublishedAppLayout": {
     "type": "DESKTOP"
   },
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
+  "evaluationVersion": 2,
   "applicationVersion": 2,
   "isManualUpdate": false,
   "deleted": false
