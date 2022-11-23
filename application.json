@@ -7,6 +7,14 @@
     {
       "id": "Dashboard",
       "isDefault": true
+    },
+    {
+      "id": "Login",
+      "isDefault": false
+    },
+    {
+      "id": "Home",
+      "isDefault": false
     }
   ],
   "viewMode": false,
